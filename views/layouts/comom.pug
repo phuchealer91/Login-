@@ -1,0 +1,19 @@
+html
+    head
+      link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css")
+    body
+      nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+        a.navbar-brand
+         img(src="/images/logopvh.png",width="30", height="30").d-inline-block.align-top
+        button(type="button",data-toggle="collapse",data-target="#navbarSupportedContent", aria-controls="navbarSupportedContent", aria-expanded="false", aria-label="Toggle navigation").navbar-toggler
+         span.navbar-toggler-icon
+        .collapse.navbar-collapse#navbarSupportedContent
+         ul.navbar-nav.mr-auto
+          li.nav-item.active
+           a(href="http://localhost:3000").nav-link Home
+          li.nav-item
+           a(href="/users/create",target="_blank").nav-link Create 
+          li.nav-item
+           a(href="/users",target="_blank").nav-link Search  
+      .container.pt-5
+        block content 

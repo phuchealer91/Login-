@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "name": "hoai thuan",
+      "phone": "3333333333333",
+      "id": "otp65gsI1"
+    },
+    {
+      "name": "nguyen minh phuc",
+      "phone": "09333333",
+      "id": "K7jIUBp6x",
+      "email": "phuctai@gmail.com",
+      "password": "123456"
+    }
+  ]
+}
